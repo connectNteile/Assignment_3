@@ -1,0 +1,360 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+#img1{
+   position: absolute;
+   left: 180px;
+}
+
+#nav{
+    position:absolute;
+    right: 200px;
+    top: 10px;
+    padding: 10px;
+}
+
+#nav,a{
+    text-decoration: none;
+    padding: 3px;
+    font-size: 12px;
+    color: black;
+}
+
+a:hover{
+    border: 1px solid black;
+}
+
+#mainbox{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px 5px #dddddd;
+}
+
+#box1{
+    width: 420px;
+    height: 175px;
+    position: absolute;
+    top:210px;
+    left: 260px;
+    /* border:1px solid red; */
+    
+
+}
+
+#check{
+    position: absolute;
+    top: -130px;
+    font-size: 45px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+
+#fname{
+    display: flex;
+    flex-direction:column;
+    width: 200px;
+    padding: 20px;
+    
+    /* left: 40px; */
+    
+}
+
+#lname{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+}
+
+#names{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    left: -20px;
+    top: -40px;
+}
+
+#email{
+    display:flex;
+    flex-direction: column;
+    /* justify-content:space-around; */
+    width: 380px;
+    padding: 4px;
+}
+
+#email1{
+    
+    position: relative;
+    top: -40px;
+    left: -4px;
+}
+
+#maincredit{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    height: 20px;
+    
+}
+
+
+#d1{
+   
+    border-right: none;
+}
+
+#datecredit{
+    display:flex;
+    width: 70px;
+    position: relative;
+    top: -20px;
+    left: 249px;
+    
+}
+
+#cv{
+    display:flex;
+    width: 100px;
+    position: relative;
+    top: -44px;
+    left: 319px;
+    font-size: 12px;
+    
+}
+
+#info1{
+    position: relative;
+    top: -30px;
+}
+
+#info2{
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+
+#wpnum{
+    position: relative;
+    top: 5px;
+}
+
+#c1{
+    border-left: none; 
+    width: 30px;
+    font-size: 15px;
+} 
+
+#cred{
+position: relative;
+top: -12px;
+}
+
+#sub{
+    display:flex;
+    flex-direction: column;
+    width: 200px;  
+
+}
+
+#submit{
+    width: 350px;  
+    height: 30px;
+    position: relative;
+    top: -15px;
+    background-color: darkgreen;
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+
+#helpline{
+    position: relative;
+    top: -12px;
+    font-size: 12px;
+    left: 40px;
+}
+
+#powered{
+    position: relative;
+    top: -3px;
+    left: 120px;
+    background-color: lightslategray;
+
+}
+
+#box2{
+    width: 400px;
+    height: 520px;
+    position: absolute; 
+    top:81px;
+    left: 680px;
+    box-shadow: 5px 5px 10px 5px #dddddd;
+    background-color:  #1179BF;
+    padding: 40px;
+    
+}
+
+#fr{
+    position: relative;
+    left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+#dollar{
+    position: relative;
+    left: 30px;
+    color: white;
+    top: 10px;
+}
+
+#yr_99{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS';
+
+}
+
+#ye{
+    position: relative;
+    left: 90px;
+    top: -40px;
+    color: white;
+    font-size: 12px;
+}
+
+#l1{
+    position: relative;
+    left: -10px;
+    padding: 10px;
+}
+
+#renew{
+    width: 140px;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    left: 30px;
+    color: white;
+    top: -30px;
+}
+
+#comb1{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    color: white;
+    font-size: 12px;
+}
+
+#client1{
+    position: relative;
+    left: 70px;
+    top: -43px;
+    color: white;
+    font-size: 12px;
+}
+
+#comb2{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    color: white;
+    font-size: 12px;
+}
+
+#client2{
+    position: relative;
+    left: 70px;
+    top: -43px;
+    color: white;
+    font-size: 12px;
+}
+
+#comb3{
+    position: relative;
+    left: 40px;
+    top: -20px;
+    color: white;
+    font-size: 12px;
+}
+
+#client3{
+    position: relative;
+    left: 70px;
+    top: -43px;
+    color: white;
+    font-size: 12px;
+}
+
+#n20{
+    position: relative;
+    left: 45px;
+    top: -25px;
+    color: white;
+    font-size: 12px;
+}
+
+#sw1{
+    position: relative;
+    left: 45px;
+    top: -25px;
+    color: white;
+    font-size: 12px;
+}
+
+#ftp{
+    position: relative;
+    left: 45px;
+    top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+#wp2{
+    position: relative;
+    left: 45px;
+    top: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+#bitm{
+    position: relative;
+    left: 45px;
+    top: 23px;
+}
+
+#kirk{
+    position: relative;
+    left: 90px;
+    top: -7px;
+    color: white;
+    font-size: 12px;
+    
+}
+
+
+#foot{
+    position: relative;
+    left: 400px;
+
+}
