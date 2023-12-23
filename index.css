@@ -123,15 +123,14 @@ a:hover{
     width: 70px;
     position: relative;
     top: -20px;
-    left: 249px;
-    
+    left: 249px;   
 }
 
 #cv{
     display:flex;
     width: 100px;
     position: relative;
-    top: -44px;
+    top: -43px;
     left: 319px;
     font-size: 12px;
     
